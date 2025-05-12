@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jemima Y. K. | Data Analyst Portfolio</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS for animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Correct FontAwesome Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-...your-integrity-code..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background: #f9fafb;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+    }
+  </style>
+</head>
+
+<body class="font-sans leading-normal tracking-normal text-gray-800">
+
+<!-- Navbar -->
+<nav class="fixed w-full z-50 top-0 bg-blue-700 shadow">
+  <div class="container mx-auto flex items-center justify-between p-4">
+    <a href="#" class="flex items-center space-x-2 text-white font-bold text-xl">
+      <span>Jemima Y. K.</span>
+    </a>
+    <div class="hidden md:flex space-x-6">
+      <a href="#about" class="text-white hover:text-gray-300">About</a>
+      <a href="#education" class="text-white hover:text-gray-300">Education</a>
+      <a href="#skills" class="text-white hover:text-gray-300">Skills</a>
+      <a href="#experience" class="text-white hover:text-gray-300">Experience</a>
+      <a href="#projects" class="text-white hover:text-gray-300">Projects</a>
+      <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero min-h-screen flex flex-col justify-center items-center text-white text-center px-6" style="padding-top:100px;">
+  <img src="https://github.com/JEMIMAYUSUF/JemimaYK-Portfolio/blob/main/files/JEMIMA%20ID%20PIC.png" class="w-24 h-24 rounded-full mb-4 border-4 border-white" alt="Profile">
+  <h1 class="text-5xl font-bold mb-4" data-aos="fade-down">Hi, I'm Jemima</h1>
+  <p class="text-2xl mb-6" data-aos="fade-up">MBA Grad | Data Analyst | Financial Analyst</p>
+  <a href="#projects" class="bg-white text-blue-700 px-6 py-3 rounded-full font-bold shadow hover:bg-gray-200 transition" data-aos="zoom-in">
+    View My Work
+  </a>
+
+  <div class="flex space-x-6 mt-8">
+    <a href="mailto:jemima.y.k369@gmail.com" target="_blank" class="text-2xl hover:text-blue-300"><i class="fas fa-envelope"></i></a>
+    <a href="https://linkedin.com/in/jemima-y-k36997462b1a0" target="_blank" class="text-2xl hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/JEMIMAYUSUF" target="_blank" class="text-2xl hover:text-blue-300"><i class="fab fa-github"></i></a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="container mx-auto p-10" data-aos="fade-up">
+  <h2 class="text-4xl font-bold text-blue-700 mb-4"><i class="fas fa-user mr-2"></i> About Me</h2>
+  <p class="text-lg leading-relaxed text-gray-700">
+    Welcome to my portfolio! I am an MBA graduate specializing in Finance and Marketing, with a strong passion for Data Analytics. 
+    With practical experience in Python, Power BI, Excel, and SQL, I specialize in transforming complex datasets into actionable insights 
+    that support strategic decision-making. I aim to blend business expertise with analytical skills to drive impactful solutions and optimize organizational processes.
+  </p>
+</section>
+
+<!-- Education -->
+<section id="education" class="container mx-auto p-10 bg-blue-50" data-aos="fade-right">
+  <h2 class="text-4xl font-bold text-blue-700 mb-4"><i class="fas fa-graduation-cap mr-2"></i> Education</h2>
+  <div class="space-y-4">
+    <div>
+      <h3 class="text-2xl font-semibold text-blue-600">Masters of Business Administration</h3>
+      <p class="text-gray-700">KLE's Institute of Management Studies & Research, KUD — 2022-24</p>
+        <p class="text-gray-600 text-sm">Specialized in Finance & Marketing.</p>
+    </div>
+    <div>
+      <h3 class="text-2xl font-semibold text-blue-600">Bachelor of Business Administration</h3>
+      <p class="text-gray-700">KLS Gogte College of Commerce, RCU — 2017-20</p>
+        <p class="text-gray-600 text-sm">Specialized in Finance.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="container mx-auto p-10" data-aos="fade-left">
+    <h2 class="text-4xl font-bold text-blue-700 mb-4"><i class="fas fa-tools mr-2"></i> Skills</h2>
+    <ul class="grid grid-cols-2 md:grid-cols-3 gap-4 text-lg text-gray-700">
+      <div><i class="fas fa-file-excel text-green-600 mr-2"></i> Excel</div>
+      <li class="flex items-center space-x-2"><i class="fa fa-database text-orange-600"></i><span>SQL</span></li>
+      <li class="flex items-center space-x-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python Logo" class="w-6 h-6"><span>Python</span></li>
+      <li class="flex items-center space-x-2"><i class="fa fa-bar-chart text-blue-500"></i><span>Power BI</span></li>
+      <li class="flex items-center space-x-2"><i class="fa fa-table text-purple-600"></i><span>Tableau</span></li>
+      <li><i class="fab fa-google text-red-600"></i> Google Analytics</li>
+      <li class="flex items-center space-x-2"><i class="fa fa-line-chart text-teal-600"></i><span>Financial Analysis</span></li>
+      <li><i class="fas fa-eye text-pink-600"></i> Data Visualization</li>
+      <li class="flex items-center space-x-2"><i class="fa fa-rocket text-indigo-600"></i><span>Business Insights</span></li>
+      
+    </ul>
+  </section>
+
+
+<!-- Experience -->
+<section id="experience" class="container mx-auto p-10" data-aos="fade-up">
+  <h2 class="text-4xl font-bold text-blue-700 mb-4"><i class="fas fa-briefcase mr-2"></i> Internships & Experience</h2>
+  <div class="space-y-6">
+    <div>
+      <h3 class="text-2xl font-semibold text-blue-600">Data Analyst Intern - Nex AI Loop</h3>
+      <p class="text-gray-700">Jan 2025 - Mar 2025</p>
+      <ul class="list-disc list-inside text-gray-600">
+        <li>Developed dashboards for tracking key KPIs, adopted company-wide.</li>
+        <li>Performed data cleaning, analysis, and visualization using Python, Excel, and Power BI.</li>
+        <li>Generated insights that improved overall business performance significantly</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-2xl font-semibold text-blue-600">Data Analytics Virtual Internship - Deloitte</h3>
+      <p class="text-gray-700">Apr 2025</p>
+      <ul class="list-disc list-inside text-gray-600">
+        <li>Conducted exploratory data analysis (EDA) on real-world business datasets.</li>
+        <li>Developed interactive dashboards using Tableau and Excel.</li>
+        <li>Ensured data consistency through effective data cleaning techniques.</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-2xl font-semibold text-blue-600">Data Visualization - TATA Group</h3>
+      <p class="text-gray-700">Apr 2025</p>
+      <ul class="list-disc list-inside text-gray-600">
+        <li>Completed a hands-on Virtual Internship focused on data storytelling.</li>
+        <li>Created dashboards using Excel and Power BI to support decision-making.</li>
+        <li>Presented key business insights through dynamic visualizations.</li>
+      </ul>
+    </div>
+    <div>
+        <h3 class="text-2xl font-semibold text-blue-600">Data Analytics & Visualization - Accenture </h3>
+        <p class="text-gray-700">Apr 2025</p>
+        <ul class="list-disc list-inside text-gray-600">
+          <li>Gained hands-on experience in data cleaning, modeling, and visualization using excel & power BI</li>
+          <li>Delivered Data-driven insights to support strategic business decisions.</li>
+          <li>Developed client ready dashboards and presentations to communicate findings effectively.</li>
+        </ul>
+      </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="container mx-auto p-10 bg-blue-50" data-aos="fade-up">
+    <h2 class="text-4xl font-bold text-blue-700 mb-4"><i class="fas fa-folder-open"></i> Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Example Project Card -->
+      <div class="bg-white border rounded-xl p-6 shadow hover:shadow-2xl hover:scale-105 transform transition duration-300">
+        <h4 class="text-xl font-semibold text-blue-600">IPL-2022 Data Analysis</h4>
+        <p class="text-gray-600 mt-2">Analyzed team performance, player statistics, and match outcomes across IPL 2022.</p>
+        <a href="project1.html" class="text-blue-500 mt-3 inline-block">View Project</a>
+      </div>
+
+      <div class="bg-white border rounded-xl p-6 shadow hover:shadow-2xl hover:scale-105 transform transition duration-300">
+        <h4 class="text-xl font-semibold text-blue-600">Netflix Stock Price Analysis</h4>
+        <p class="text-gray-600 mt-2">Identified key trends, volatility, and performance metrics of Netflix’s stock.</p>
+        <a href="project2.html" class="text-blue-500 mt-3 inline-block">View Project</a>
+      </div>
+
+      <div class="bg-white border rounded-xl p-6 shadow hover:shadow-2xl hover:scale-105 transform transition duration-300">
+        <h4 class="text-xl font-semibold text-blue-600">Apple iPhone Sales Analysis</h4>
+        <p class="text-gray-600 mt-2">Explored sales performance, pricing strategy impact, and seasonal trends.</p>
+        <a href="project3.html" class="text-blue-500 mt-3 inline-block">View Project</a>
+      </div>
+
+      <div class="bg-white border rounded-xl p-6 shadow hover:shadow-2xl hover:scale-105 transform transition duration-300">
+        <h4 class="text-xl font-semibold text-blue-600">Sales Dashboard (Power BI)</h4>
+        <p class="text-gray-600 mt-2">Developed a sales dashboard highlighting revenue, regional performance, and trends.</p>
+        <a href="project4.html" class="text-blue-500 mt-3 inline-block">View Project</a>
+      </div>
+
+      <div class="bg-white border rounded-xl p-6 shadow hover:shadow-2xl hover:scale-105 transform transition duration-300">
+        <h4 class="text-xl font-semibold text-blue-600">Diwali Sales Analysis</h4>
+        <p class="text-gray-600 mt-2">Created interactive dashboards to track Diwali season sales and optimize strategies.</p>
+        <a href="project5.html" class="text-blue-500 mt-3 inline-block">View Project</a>
+      </div>
+
+      <div class="bg-white border rounded-xl p-6 shadow hover:shadow-2xl hover:scale-105 transform transition duration-300">
+        <h4 class="text-xl font-semibold text-blue-600">HR Analytics Dashboard</h4>
+        <p class="text-gray-600 mt-2">Visualized workforce metrics including turnover rates and employee performance.</p>
+        <a href="project6.html" class="text-blue-500 mt-3 inline-block">View Project</a>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact -->
+<section id="contact" class="container mx-auto p-10" data-aos="fade-up">
+  <h2 class="text-4xl font-bold text-blue-700 mb-4"><i class="fas fa-envelope mr-2"></i> Contact Me</h2>
+  <p class="text-gray-700 mb-2"><i class="fas fa-envelope mr-2"></i>Email: <a href="mailto:jemima.y.k369@gmail.com" class="text-blue-500">jemima.y.k369@gmail.com</a></p>
+  <p class="text-gray-700 mb-2"><i class="fab fa-linkedin mr-2"></i>LinkedIn: <a href="https://linkedin.com/in/jemima-y-k36997462b1a0" class="text-blue-500" target="_blank">jemima-y-k36997462b1a0</a></p>
+  <p class="text-gray-700"><i class="fab fa-github mr-2"></i>GitHub: <a href="https://github.com/JEMIMAYUSUF" class="text-blue-500" target="_blank">JEMIMAYUSUF</a></p>
+</section>
+
+<!-- Footer -->
+<footer class="text-center text-white bg-blue-700 py-6 mt-10">
+  © 2025 Jemima Y. K. All rights reserved.
+</footer>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({ once: true });
+</script>
+
+</body>
+</html>
